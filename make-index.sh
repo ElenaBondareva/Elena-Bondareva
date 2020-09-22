@@ -8,6 +8,7 @@ echo "<h4><a href=\"https://5f632217e2b3c.site123.me/\">Основной сай�
 echo "<h4><a href=\"doc/index.html\">Документы</a></h4>" >> index.html
 echo "<h4><a href=\"photo/index.html\">Фото и видео</a></h4>" >> index.html
 echo "<h4><a href=\"gram/index.html\">Грамоты и награды</a></h4>" >> index.html
+echo "<h4><a href=\"program/index.html\">Рабочие программы</a></h4>" >> index.html
 
 #echo "<ul>" >> index.html
 list=`find . -maxdepth 1 -mindepth 1 -type d -printf "%f\n" | sort`
